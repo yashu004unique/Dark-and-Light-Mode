@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark and Light Mode</title>
+    <link rel="stylesheet" href="./index.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container container-light" id="mode">
+        <div class="header-container">
+            <div class="header-details">
+                <span class="header-name">Flyine</span>
+                <ul class="header-nav">
+                    <li>Home</li>
+                    <li>Places</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+            <div class="header-mode">
+                <i class="fa fa-sun-o" aria-hidden="true"></i>
+                <div class="toggle-container" onClick=darkAndLight()>
+                    <span class="toggle-circle " id="toggle" ></span>
+                </div>
+                <i class="fa fa-moon-o" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="body-container">
+            <div class="body-content">
+                
+                <span>The good life is a process, not a state of being. It is a direction not a destination</span>
+                <br>                
+                <button>Shop Now<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>              
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil velit, similique minima ratione perferendis ducimus laborum possimus omnis accusamus minus eius quia reprehenderit iure delectus beatae nostrum corporis quod tempora.</p>
+                
+            </div>
+            <div class="body-img">
+                <img src="./image/Untitled1.png">
+            </div>
+        </div>
+        <marquee class="name">Dark & Light Mode Project by Yashu</marquee>
+    </div>
+
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
